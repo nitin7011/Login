@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             !RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$')
                                 .hasMatch(value)) {
                           //allow upper and lower case alphabets and space
-                          return "Enter valid Email Address";
+                          return "Enter Email Address";
                         } else {
                           return null;
                         }
